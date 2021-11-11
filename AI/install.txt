@@ -1,0 +1,9 @@
+conda create --name rbml_env  python --no-default-packages python=3.7
+
+conda activate rbml_env
+
+
+
+pip install azure-identity
+pip install azure-storage-blob
+python -m spacy download en
